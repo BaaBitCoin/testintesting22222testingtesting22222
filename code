@@ -1,0 +1,4 @@
+constructor() {
+    _totalSupply = _initialSupply;
+    _mint(_msgSender(), _initialSupply);
+}
